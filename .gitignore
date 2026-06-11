@@ -1,0 +1,67 @@
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ENV FILES (CRITICAL)
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# LOGS
+# =========================
+*.log
+logs/
+
+# =========================
+# GIT IGNORE IDEA (GENERAL)
+# =========================
+*.tmp
+*.swp
+
+# =========================
+# BACKEND (SPRING BOOT)
+# =========================
+backend/target/
+backend/.mvn/
+backend/mvnw.cmd
+backend/mvnw
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+
+# Spring Boot sensitive config
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-prod.yml
+
+# =========================
+# FRONTEND (VITE + REACT)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.eslintcache
+
+# Vite cache
+frontend/node_modules/.vite/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# SECURITY (NEVER COMMIT THESE)
+# =========================
+*.pem
+*.key
+*.p12
+*.pfx
