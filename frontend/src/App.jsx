@@ -42,7 +42,7 @@ function App() {
 
             <Input 
             label="Password"
-            type={showPassword ? "text" : "password"}
+            type={showPassword ? "password" : "text"}
             name="password"
             placeholder="Enter your password"
             value={password}
