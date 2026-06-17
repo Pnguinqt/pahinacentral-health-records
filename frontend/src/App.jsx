@@ -48,7 +48,7 @@ function App() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className="w-full"
-            rightIcon={showPassword ? <FaEyeSlash /> : <FaEye />}
+            rightIcon={showPassword ? <FaEye /> : <FaEyeSlash />}
             onRightIconClick={() => setShowPassword(!showPassword)}
              />
 
